@@ -1,16 +1,23 @@
-# e_commerce
+# E-Commerce App (Flutter UI)
 
-A new Flutter project.
+A mobile e-commerce app UI built with Flutter. It covers the full shopping flow, from browsing products to checkout, with an in-app chat with sellers.
+
+## Screens
+
+- Login
+- Home with categories and product cards
+- Product detail with ratings
+- Shopping cart with item badge
+- Chat list and chat detail
+- User profile
+
+## Tech Stack
+
+Flutter · Dart · curved_navigation_bar · badges · flutter_rating_bar
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
+```
